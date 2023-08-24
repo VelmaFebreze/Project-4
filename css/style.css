@@ -94,6 +94,10 @@ transition: fade-in;
   margin-top: 2%;
   text-align: center;
 }
+.still-here {
+  text-align: center;
+  color: #64B48B;
+}
 .mainphoto {
   border-radius: 50%;
   width:30%;
@@ -118,17 +122,6 @@ text-shadow: 0 0 5px #78BE98,
     0 0 35px #008147;
 animation: glow 1s ease-in-out infinite alternate;
 text-align: center;
-}
-#growing-up {
-  text-align: center; 
-  font-size: 250%; 
-  border-style: dotted;
-  width: 15%;
-  margin: auto;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-color: #DDE6ED;
 }
 .state-flags {
   display: flex;
@@ -211,7 +204,7 @@ border-color: #DDE6ED;
 
 .linkedin-mess {
   position: absolute;
-  top: 49%; /* Adjust this value slightly */
+  top: 47%; /* Adjust this value slightly */
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
@@ -309,6 +302,15 @@ margin-top: -3px;
     color: #DDE6ED;
     opacity: 1;
     /* Firefox */
+  }
+  .thank-you-text {
+    margin-left: 40%;
+  }
+  .thanks-message {
+    text-align: center;
+    color: #64B48B;
+    font-size: 200%;
+    margin-bottom: 5rem;
   }
 
 @media only screen and (max-width: 845px) {
