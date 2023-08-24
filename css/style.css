@@ -1,0 +1,344 @@
+* {
+    font-family:'Handlee';
+  }
+body {
+background-image: url("https://images.unsplash.com/photo-1603366615917-1fa6dad5c4fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGJsYWNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60");
+color: #526D82
+}
+header {
+background-color: #000000;
+font-size: 50%;
+margin: auto;
+height: 305%;
+text-align: center;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: dotted;
+    border-color: #DDE6ED;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+.name {
+text-align: left;
+font-size: 700%;
+margin-left: 5%;
+color: #EFFAE9;
+text-shadow: 0 0 5px #78BE98, 
+    0 0 10px #64B48B, 
+    0 0 15px #50AA7D, 
+    0 0 20px #3CA070, 
+    0 0 25px #289562, 
+    0 0 30px #148B55, 
+    0 0 35px #008147;
+animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+from {
+  text-shadow: 0 0 5px #78BE98, 
+    0 0 10px #64B48B, 
+    0 0 15px #50AA7D, 
+    0 0 20px #3CA070, 
+    0 0 25px #289562, 
+    0 0 30px #148B55, 
+    0 0 35px #008147;
+}
+to {
+  text-shadow: 
+    0 0 10px #78BE98, 
+    0 0 20px #64B48B, 
+    0 0 30px #50AA7D, 
+    0 0 40px #3CA070, 
+    0 0 50px #289562, 
+    0 0 60px #148B55, 
+    0 0 70px #008147;
+}
+}
+.nav {
+    text-align: right;
+    font-size: 450%;
+    margin-right: 5%;
+text-shadow: 0 0 5px #419DE6, 
+    0 0 10px #4495D5, 
+    0 0 15px #478DC5, 
+    0 0 20px #4A85B4, 
+    0 0 25px #4C7DA3, 
+    0 0 30px #4F7593, 
+    0 0 35px #526D82;
+    display: inline;
+  }
+
+.nav a {
+    color: #000000;
+  }
+
+.nav a:visited {
+    color: #DDE6ED;
+  }
+  
+.nav a:hover {
+color: #DDE6ED;
+transition: fade-in;
+}
+.nav a:visited:hover {
+color: #000000;;
+transition: fade-in;
+}
+.hipic {
+  width:10%;
+  margin-left:45%;
+  margin-top: 2%;
+  text-align: center;
+}
+.mainphoto {
+  border-radius: 50%;
+  width:30%;
+  margin-left:35%;
+  margin-top: 2%;
+  text-align: center;
+  border:dotted;
+  border-color: #DDE6ED;
+}
+.main {
+    text-align: center;
+  }
+#about {
+font-size:350%;
+color: #EFFAE9;
+text-shadow: 0 0 5px #78BE98, 
+    0 0 10px #64B48B, 
+    0 0 15px #50AA7D, 
+    0 0 20px #3CA070, 
+    0 0 25px #289562, 
+    0 0 30px #148B55, 
+    0 0 35px #008147;
+animation: glow 1s ease-in-out infinite alternate;
+text-align: center;
+}
+#growing-up {
+  text-align: center; 
+  font-size: 250%; 
+  border-style: dotted;
+  width: 15%;
+  margin: auto;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #DDE6ED;
+}
+.state-flags {
+  display: flex;
+  width: 10rem;
+  height: 10rem;
+  margin-left: 35%;
+}
+.more {
+font-size: 175%;
+text-align: center;
+}
+#skills {
+font-size:350%;
+color: #DDE6ED;
+text-shadow: 0 0 5px #419DE6, 
+    0 0 10px #4495D5, 
+    0 0 15px #478DC5, 
+    0 0 20px #4A85B4, 
+    0 0 25px #4C7DA3, 
+    0 0 30px #4F7593, 
+    0 0 35px #526D82;
+animation: glow 1s ease-in-out infinite alternate;
+text-align: center;
+}
+.grid {
+display: grid;
+grid-template-columns: 40% 40%;
+grid-gap: 5px;
+text-align: center;
+margin-left: 20%;
+}
+.before .after {
+font-size: 100%;
+}
+
+.photo {
+filter:blur(5px);
+}
+
+.photo:hover {
+filter:blur(0px);
+}
+
+.image {
+max-width: 75%;
+display: block;
+box-shadow: 0px 24px 38px 3px rgba(0,0,0,0.14) , 0px 9px 46px 8px rgba(0,0,0,0.12) , 0px 11px 15px -7px rgba(0,0,0,0.2);
+margin-inline: auto;
+margin-bottom: 10%;
+text-align: center;
+border: dotted;
+border-color: #DDE6ED;
+}
+
+.text-img{
+margin: 3%;
+padding:.5%;
+border:dotted;
+border-color: #DDE6ED;
+}
+
+.linkedin-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust as needed */
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.linkedin,
+.linkedin-mess {
+  border: dotted;
+  border-radius: 13%;
+  border-color: #DDE6ED;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.linkedin-mess {
+  position: absolute;
+  top: 49%; /* Adjust this value slightly */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  border-color: #40F8FF;
+}
+
+.linkedin-container:hover .linkedin {
+  opacity: 0;
+}
+
+.linkedin-container:hover .linkedin-mess {
+  opacity: 1;
+}
+.footer {
+    background-color: #000000;
+    border: dotted;
+    border-color: #DDE6ED;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: 2%;
+  }
+.contact-form {
+    text-align: center;
+    width: 500px;
+    height: 700px;
+    margin: auto;
+    border-radius: 10%;
+    border-width: 10px;
+    background-color: #27374D;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border:dotted;
+    border-radius: 13%;
+    border-color: #DDE6ED;
+  }
+#contact {
+font-size: 60px;
+color: #DDE6ED;
+text-shadow: 0 0 5px #419DE6, 
+    0 0 10px #4495D5, 
+    0 0 15px #478DC5, 
+    0 0 20px #4A85B4, 
+    0 0 25px #4C7DA3, 
+    0 0 30px #4F7593, 
+    0 0 35px #526D82;
+}
+.line {
+border: none;
+height: 5px;
+background-color: #526D82;
+}
+#name {
+width: 300px;
+height: 70px;
+font-size: 30px;
+padding-left: 10px;
+border: dotted;
+border-color:#DDE6ED;
+background-color: #526D82;
+color: #DDE6ED;
+}
+#email {
+width: 300px;
+height: 70px;
+font-size: 25px;
+padding-left: 10px;
+border: dotted;
+border-color:#DDE6ED;
+background-color: #526D81;
+color: #DDE6ED;
+}
+#message {
+width: 300px;
+height: 70px;
+font-size: 25px;
+padding-left: 10px;
+border: dotted;
+border-color:#DDE6ED;
+background-color: #526D82;
+color: #DDE6ED;
+}
+#submit {
+width: 240px;
+height: 50px;
+font-size: 30px;
+padding-left: 10px;
+border: solid 5px;
+background-color: #DDE6ED;
+color: #526D82;
+margin-top: -3px;
+}
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #DDE6ED;
+    opacity: 1;
+    /* Firefox */
+  }
+
+@media only screen and (max-width: 845px) {
+  .nav {
+    font-size: 200%;
+  }
+  .name {
+    font-size: 300%;
+  }
+  .mainphoto {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 5%;
+  }
+  .more {
+    font-size: 150%;
+  }
+  .intro {
+    font-size: 100%;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    margin-left: 5%;
+  }
+  .contact-form {
+    height: 800px;
+    border-radius: 0%;
+  }
+  #submit {
+    margin-top: -50px;
+  }
+}
+    
